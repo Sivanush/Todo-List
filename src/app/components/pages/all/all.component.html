@@ -1,1 +1,21 @@
-<p>all works!</p>
+
+    <h2 class="p-4 font-bold">Todays Task</h2>
+    <div class="p-4">
+      <span>Friday</span><span> 08 2024</span>
+    </div>
+    <div class="flex mt-10">
+      <input class="h-10 w-full p-4 rounded" type="search" name="" id="" placeholder="Enter your task" 
+      [(ngModel)]="newTask"
+      (keydown.enter)="addTask()" />
+      >
+    </div>
+  
+    <div class="mt-3">
+      <h2 class="p-4 font-bold">Tasks</h2>
+    </div>
+  
+    <div>
+      <p class="bg-white w-full h-14 rounded shadow flex items-center p-4">
+        Task 1</p>
+    </div> 
+ 
