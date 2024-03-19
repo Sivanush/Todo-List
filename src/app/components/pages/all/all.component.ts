@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Output, inject, input } from '@angular/core';
+import { Component, EventEmitter, Output, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpService } from '../../../service/http.service';
 import { PageTitleComponent } from '../../page-title/page-title.component';
@@ -37,7 +37,6 @@ export class AllComponent {
   }
 
 
-  // @input() tasklists:any[] = []
   @Output() important = new EventEmitter<any>()
   @Output() complete = new EventEmitter<any>()
   markImportent(task: any) {

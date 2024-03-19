@@ -3,17 +3,15 @@
     {
       "id": "1979",
       "title": "Walking",
-      "complete": true
+      "important": true
     },
     {
       "id": "1066",
-      "title": "Running",
-      "complete": true
+      "title": "Running"
     },
     {
       "id": "41ba",
-      "title": "Reading",
-      "important": true
+      "title": "Reading"
     }
   ]
 }
